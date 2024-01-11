@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no ,minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    
+    <meta name="theme-color" content="#000000" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;700;800&family=Oswald:wght@400;500;600;700&display=swap" 
+          rel="stylesheet">
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Kurti Design</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+        const firebaseConfig = {
+          apiKey: "AIzaSyD5qMGxshV4e9pyp1iu1Q0X06ni7KxXFfc",
+          authDomain: "kurtidesign-f597f.firebaseapp.com",
+          projectId: "kurtidesign-f597f",
+          storageBucket: "kurtidesign-f597f.appspot.com",
+          messagingSenderId: "465942047400",
+          appId: "1:465942047400:web:056ab68d57828e20f7309d"
+        };
+      const app = initializeApp(firebaseConfig);
+    </script>
+    <script>
+       window.onload=()=>{
+          window.scrollTo(0,1);
+       }
+    </script>
+    <div id="root"></div>
+  </body>
+</html>
